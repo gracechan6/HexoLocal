@@ -1,7 +1,7 @@
 ---
 title: React交互二：Redux 以及库打包方法介绍
 date: 2016-10-27 10:36:13
-tags:
+tags: [Redux,lib]
 ---
 
 

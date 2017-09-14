@@ -1,7 +1,7 @@
 ---
 title: React交互一：Flux
 date: 2016-10-27 10:23:38
-tags:
+tags: [Flux]
 ---
 
 

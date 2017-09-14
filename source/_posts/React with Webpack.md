@@ -1,7 +1,7 @@
 ---
 title: React结合Webpack使用
 date: 2016-08-25 09:59:51
-tags:
+tags: [React,Webpack]
 ---
 
 ## 准备工作

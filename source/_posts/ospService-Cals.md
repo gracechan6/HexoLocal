@@ -21,7 +21,7 @@ var _hmt = _hmt || [];
 			var y=document.getElementById("yijie").value*1;
 			var z=document.getElementById("zhuanjie").value*1;
 
-			document.getElementById("result").innerHTML=((100-m)*0.4+(100-z+y)*0.3).toFixed(2);
+			document.getElementById("result").innerHTML=((100-m)*0.5+(100-z)*0.3+y*0.2).toFixed(2);
 			// alert(m+","+y+","+z);
 		}
 

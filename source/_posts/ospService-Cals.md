@@ -43,7 +43,7 @@ var _hmt = _hmt || [];
 			    newGet=money-zengzhi-chengjian-jiaofu-difangjiaofu-geren;
 			    mores="(增值税："+zengzhi+" 城建税："+chengjian+" 教附税："+jiaofu+" 地方教附税："+difangjiaofu+" 个人所得税"+geren+")";
 			}
-			document.getElementById("realMoney").innerHTML="旧版税后:"+(oldGet*1).toFixed(2)+"<br/>新版税后:"+(newGet*1).toFixed(2)+mores;
+			document.getElementById("realMoney").innerHTML="旧版税后:"+(oldGet*1).toFixed(2)+"<br/>新版税后:"+(newGet*1).toFixed(2)+mores+"<br/>特云税后："+(newGet*1+(geren*1>500?500:geren*1));
 		}
 
 		var manyiAll=0;
